@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8
+    container_name: career-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: career_db
+      MYSQL_USER: career_user
+      MYSQL_PASSWORD: career_pass
+    ports:
+      - "3307:3306"
+    volumes:
+      - career_mysql_data:/var/lib/mysql
+    networks:
+      - career_net
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: career-phpmyadmin
+    restart: unless-stopped
+    ports:
+      - "8081:80"
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      PMA_USER: career_user
+      PMA_PASSWORD: career_pass
+    depends_on:
+      - mysql
+    networks:
+      - career_net
+
+volumes:
+  career_mysql_data:
+
+networks:
+  career_net:
+    driver: bridge

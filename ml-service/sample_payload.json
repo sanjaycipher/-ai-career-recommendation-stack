@@ -1,0 +1,2550 @@
+{
+  "student": {
+    "skills": [
+      "JavaScript",
+      "React",
+      "HTML",
+      "CSS",
+      "Git",
+      "SQL"
+    ],
+    "interests": [
+      "web",
+      "design"
+    ],
+    "subjects": [
+      "Data Structures",
+      "DBMS",
+      "Mathematics"
+    ],
+    "experience": "0-1"
+  },
+  "careers": [
+    {
+      "id": 1,
+      "title": "Full Stack Developer",
+      "typical_work_experience": "any",
+      "skills": [
+        {
+          "name": "JavaScript",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "SQL",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "HTML",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "CSS",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "React",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Node.js",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Express",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "REST API",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "MongoDB",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Docker",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Git",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Postman",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        }
+      ],
+      "interests": [
+        {
+          "name": "web",
+          "weight": 2
+        },
+        {
+          "name": "systems",
+          "weight": 0.5
+        },
+        {
+          "name": "product",
+          "weight": 1
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Data Structures",
+          "weight": 1.5
+        },
+        {
+          "name": "DBMS",
+          "weight": 2
+        },
+        {
+          "name": "Computer Networks",
+          "weight": 1
+        },
+        {
+          "name": "Software Engineering",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Frontend Developer",
+      "typical_work_experience": "any",
+      "skills": [
+        {
+          "name": "JavaScript",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "TypeScript",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "HTML",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "CSS",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "React",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Tailwind CSS",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Material UI",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "REST API",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Git",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "UI/UX Design",
+          "weight": 1,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Jest",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        }
+      ],
+      "interests": [
+        {
+          "name": "web",
+          "weight": 2
+        },
+        {
+          "name": "design",
+          "weight": 1.5
+        },
+        {
+          "name": "product",
+          "weight": 0.5
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Data Structures",
+          "weight": 1.5
+        },
+        {
+          "name": "Computer Networks",
+          "weight": 1
+        },
+        {
+          "name": "Software Engineering",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Backend Developer",
+      "typical_work_experience": "any",
+      "skills": [
+        {
+          "name": "SQL",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Node.js",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Express",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "REST API",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "PostgreSQL",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Redis",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Docker",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Git",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Unit Testing",
+          "weight": 1,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Postman",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        },
+        {
+          "name": "System Design",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Microservices",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        }
+      ],
+      "interests": [
+        {
+          "name": "web",
+          "weight": 1.5
+        },
+        {
+          "name": "systems",
+          "weight": 2
+        },
+        {
+          "name": "cloud",
+          "weight": 1
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Data Structures",
+          "weight": 2
+        },
+        {
+          "name": "Operating Systems",
+          "weight": 1.5
+        },
+        {
+          "name": "DBMS",
+          "weight": 2
+        },
+        {
+          "name": "Computer Networks",
+          "weight": 1.5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Software Engineer",
+      "typical_work_experience": "any",
+      "skills": [
+        {
+          "name": "Java",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "C++",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "SQL",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Git",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "CI/CD",
+          "weight": 1,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Unit Testing",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Problem Solving",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Agile",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        },
+        {
+          "name": "Data Structures",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Algorithms",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "System Design",
+          "weight": 2,
+          "is_missing_highlight": true
+        }
+      ],
+      "interests": [
+        {
+          "name": "web",
+          "weight": 1
+        },
+        {
+          "name": "systems",
+          "weight": 2
+        },
+        {
+          "name": "product",
+          "weight": 1
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Data Structures",
+          "weight": 2
+        },
+        {
+          "name": "Operating Systems",
+          "weight": 1.5
+        },
+        {
+          "name": "Software Engineering",
+          "weight": 2
+        },
+        {
+          "name": "Mathematics",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Mobile App Developer",
+      "typical_work_experience": "0-1",
+      "skills": [
+        {
+          "name": "JavaScript",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Kotlin",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Swift",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "React",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "REST API",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Git",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Firebase",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "UI/UX Design",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Figma",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        },
+        {
+          "name": "Unit Testing",
+          "weight": 1,
+          "is_missing_highlight": true
+        }
+      ],
+      "interests": [
+        {
+          "name": "design",
+          "weight": 1.5
+        },
+        {
+          "name": "mobile",
+          "weight": 2
+        },
+        {
+          "name": "product",
+          "weight": 1
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Data Structures",
+          "weight": 1.5
+        },
+        {
+          "name": "Computer Networks",
+          "weight": 1
+        },
+        {
+          "name": "Software Engineering",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Data Analyst",
+      "typical_work_experience": "internship",
+      "skills": [
+        {
+          "name": "Python",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "SQL",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "PostgreSQL",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Git",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        },
+        {
+          "name": "Scikit-learn",
+          "weight": 1,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Pandas",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "NumPy",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Communication",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Problem Solving",
+          "weight": 2,
+          "is_missing_highlight": true
+        }
+      ],
+      "interests": [
+        {
+          "name": "data",
+          "weight": 2
+        },
+        {
+          "name": "product",
+          "weight": 1
+        },
+        {
+          "name": "research",
+          "weight": 1
+        }
+      ],
+      "subjects": [
+        {
+          "name": "DBMS",
+          "weight": 2
+        },
+        {
+          "name": "Mathematics",
+          "weight": 1.5
+        },
+        {
+          "name": "Statistics",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Data Scientist",
+      "typical_work_experience": "0-1",
+      "skills": [
+        {
+          "name": "Python",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "SQL",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Docker",
+          "weight": 1,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Git",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Machine Learning",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Deep Learning",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Scikit-learn",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Pandas",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "NumPy",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Communication",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        },
+        {
+          "name": "Problem Solving",
+          "weight": 2,
+          "is_missing_highlight": true
+        }
+      ],
+      "interests": [
+        {
+          "name": "data",
+          "weight": 2
+        },
+        {
+          "name": "ai",
+          "weight": 1.5
+        },
+        {
+          "name": "research",
+          "weight": 2
+        }
+      ],
+      "subjects": [
+        {
+          "name": "DBMS",
+          "weight": 1
+        },
+        {
+          "name": "Artificial Intelligence",
+          "weight": 1.5
+        },
+        {
+          "name": "Mathematics",
+          "weight": 2
+        },
+        {
+          "name": "Statistics",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Machine Learning Engineer",
+      "typical_work_experience": "1-3",
+      "skills": [
+        {
+          "name": "Python",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "SQL",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Docker",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "CI/CD",
+          "weight": 1,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Linux",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        },
+        {
+          "name": "Machine Learning",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Deep Learning",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "TensorFlow",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "PyTorch",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Scikit-learn",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Pandas",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "NumPy",
+          "weight": 2,
+          "is_missing_highlight": true
+        }
+      ],
+      "interests": [
+        {
+          "name": "data",
+          "weight": 1.5
+        },
+        {
+          "name": "systems",
+          "weight": 1
+        },
+        {
+          "name": "ai",
+          "weight": 2
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Data Structures",
+          "weight": 1.5
+        },
+        {
+          "name": "Artificial Intelligence",
+          "weight": 2
+        },
+        {
+          "name": "Mathematics",
+          "weight": 2
+        },
+        {
+          "name": "Statistics",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "AI Engineer",
+      "typical_work_experience": "1-3",
+      "skills": [
+        {
+          "name": "Python",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "FastAPI",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Redis",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Docker",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Git",
+          "weight": 1,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Machine Learning",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Deep Learning",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "PyTorch",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "NLP",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "LLM APIs",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Postman",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        }
+      ],
+      "interests": [
+        {
+          "name": "ai",
+          "weight": 2
+        },
+        {
+          "name": "cloud",
+          "weight": 1
+        },
+        {
+          "name": "research",
+          "weight": 1.5
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Data Structures",
+          "weight": 1
+        },
+        {
+          "name": "Artificial Intelligence",
+          "weight": 2
+        },
+        {
+          "name": "Mathematics",
+          "weight": 1.5
+        },
+        {
+          "name": "Statistics",
+          "weight": 1.5
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "DevOps Engineer",
+      "typical_work_experience": "1-3",
+      "skills": [
+        {
+          "name": "Python",
+          "weight": 1,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Docker",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Kubernetes",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Git",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "GitHub Actions",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "CI/CD",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Nginx",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Linux",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Terraform",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "AWS",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Agile",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        }
+      ],
+      "interests": [
+        {
+          "name": "systems",
+          "weight": 2
+        },
+        {
+          "name": "cloud",
+          "weight": 2
+        },
+        {
+          "name": "security",
+          "weight": 1
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Operating Systems",
+          "weight": 2
+        },
+        {
+          "name": "Computer Networks",
+          "weight": 2
+        },
+        {
+          "name": "Cloud Computing",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Cloud Engineer",
+      "typical_work_experience": "0-1",
+      "skills": [
+        {
+          "name": "Docker",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Kubernetes",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Git",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "CI/CD",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Nginx",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        },
+        {
+          "name": "Linux",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Terraform",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "AWS",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Azure",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "GCP",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "System Design",
+          "weight": 1,
+          "is_missing_highlight": true
+        }
+      ],
+      "interests": [
+        {
+          "name": "systems",
+          "weight": 1.5
+        },
+        {
+          "name": "cloud",
+          "weight": 2
+        },
+        {
+          "name": "security",
+          "weight": 1
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Operating Systems",
+          "weight": 1.5
+        },
+        {
+          "name": "Computer Networks",
+          "weight": 1.5
+        },
+        {
+          "name": "Distributed Systems",
+          "weight": 2
+        },
+        {
+          "name": "Cloud Computing",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Site Reliability Engineer",
+      "typical_work_experience": "3-plus",
+      "skills": [
+        {
+          "name": "Python",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Go",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Docker",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Kubernetes",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Git",
+          "weight": 1,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "CI/CD",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Nginx",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Linux",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Terraform",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Problem Solving",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Scrum",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        },
+        {
+          "name": "System Design",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        }
+      ],
+      "interests": [
+        {
+          "name": "systems",
+          "weight": 2
+        },
+        {
+          "name": "cloud",
+          "weight": 1.5
+        },
+        {
+          "name": "security",
+          "weight": 1.5
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Operating Systems",
+          "weight": 2
+        },
+        {
+          "name": "Computer Networks",
+          "weight": 1.5
+        },
+        {
+          "name": "Distributed Systems",
+          "weight": 2
+        },
+        {
+          "name": "Cloud Computing",
+          "weight": 1.5
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Security Engineer",
+      "typical_work_experience": "1-3",
+      "skills": [
+        {
+          "name": "Python",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "SQL",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        },
+        {
+          "name": "REST API",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Docker",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Git",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Linux",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "AWS",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Postman",
+          "weight": 1,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Communication",
+          "weight": 1,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Problem Solving",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "System Design",
+          "weight": 2,
+          "is_missing_highlight": true
+        }
+      ],
+      "interests": [
+        {
+          "name": "systems",
+          "weight": 1.5
+        },
+        {
+          "name": "cloud",
+          "weight": 1
+        },
+        {
+          "name": "security",
+          "weight": 2
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Operating Systems",
+          "weight": 2
+        },
+        {
+          "name": "Computer Networks",
+          "weight": 2
+        },
+        {
+          "name": "Mathematics",
+          "weight": 1.5
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "QA / Test Automation Engineer",
+      "typical_work_experience": "any",
+      "skills": [
+        {
+          "name": "JavaScript",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Python",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Git",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "CI/CD",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Unit Testing",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Jest",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Cypress",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Selenium",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Postman",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Agile",
+          "weight": 1,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Scrum",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        }
+      ],
+      "interests": [
+        {
+          "name": "web",
+          "weight": 1
+        },
+        {
+          "name": "systems",
+          "weight": 1.5
+        },
+        {
+          "name": "product",
+          "weight": 1.5
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Data Structures",
+          "weight": 1.5
+        },
+        {
+          "name": "DBMS",
+          "weight": 1
+        },
+        {
+          "name": "Software Engineering",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "UI/UX Designer",
+      "typical_work_experience": "any",
+      "skills": [
+        {
+          "name": "HTML",
+          "weight": 1,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "CSS",
+          "weight": 1,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "UI/UX Design",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Figma",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Adobe XD",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Wireframing",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Prototyping",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Communication",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Teamwork",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Agile",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        }
+      ],
+      "interests": [
+        {
+          "name": "web",
+          "weight": 1
+        },
+        {
+          "name": "design",
+          "weight": 2
+        },
+        {
+          "name": "product",
+          "weight": 1.5
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Computer Networks",
+          "weight": 0.5
+        },
+        {
+          "name": "Software Engineering",
+          "weight": 1.5
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Product Manager",
+      "typical_work_experience": "1-3",
+      "skills": [
+        {
+          "name": "SQL",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        },
+        {
+          "name": "UI/UX Design",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Wireframing",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Communication",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Teamwork",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Problem Solving",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Time Management",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Leadership",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Agile",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Scrum",
+          "weight": 3,
+          "is_missing_highlight": true
+        }
+      ],
+      "interests": [
+        {
+          "name": "data",
+          "weight": 1
+        },
+        {
+          "name": "design",
+          "weight": 1
+        },
+        {
+          "name": "product",
+          "weight": 2
+        }
+      ],
+      "subjects": [
+        {
+          "name": "DBMS",
+          "weight": 1
+        },
+        {
+          "name": "Software Engineering",
+          "weight": 2
+        },
+        {
+          "name": "Statistics",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Database Administrator",
+      "typical_work_experience": "1-3",
+      "skills": [
+        {
+          "name": "SQL",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "MySQL",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "PostgreSQL",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "MongoDB",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Redis",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Docker",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Git",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        },
+        {
+          "name": "Linux",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Problem Solving",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "System Design",
+          "weight": 2,
+          "is_missing_highlight": true
+        }
+      ],
+      "interests": [
+        {
+          "name": "data",
+          "weight": 2
+        },
+        {
+          "name": "systems",
+          "weight": 2
+        },
+        {
+          "name": "security",
+          "weight": 1
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Operating Systems",
+          "weight": 1.5
+        },
+        {
+          "name": "DBMS",
+          "weight": 2
+        },
+        {
+          "name": "Computer Networks",
+          "weight": 1
+        },
+        {
+          "name": "Distributed Systems",
+          "weight": 1.5
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Data Engineer",
+      "typical_work_experience": "1-3",
+      "skills": [
+        {
+          "name": "Python",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "SQL",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "PostgreSQL",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Redis",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Docker",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Git",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "CI/CD",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Linux",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "NumPy",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        },
+        {
+          "name": "Data Structures",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Message Queues",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        }
+      ],
+      "interests": [
+        {
+          "name": "data",
+          "weight": 2
+        },
+        {
+          "name": "systems",
+          "weight": 1.5
+        },
+        {
+          "name": "cloud",
+          "weight": 1.5
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Data Structures",
+          "weight": 1.5
+        },
+        {
+          "name": "DBMS",
+          "weight": 2
+        },
+        {
+          "name": "Distributed Systems",
+          "weight": 2
+        },
+        {
+          "name": "Cloud Computing",
+          "weight": 1.5
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Blockchain Developer",
+      "typical_work_experience": "1-3",
+      "skills": [
+        {
+          "name": "JavaScript",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "C++",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Go",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Rust",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Git",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Linux",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        },
+        {
+          "name": "Unit Testing",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Data Structures",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Algorithms",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "System Design",
+          "weight": 2,
+          "is_missing_highlight": true
+        }
+      ],
+      "interests": [
+        {
+          "name": "systems",
+          "weight": 2
+        },
+        {
+          "name": "security",
+          "weight": 1.5
+        },
+        {
+          "name": "research",
+          "weight": 1
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Data Structures",
+          "weight": 2
+        },
+        {
+          "name": "Computer Networks",
+          "weight": 1.5
+        },
+        {
+          "name": "Mathematics",
+          "weight": 1.5
+        },
+        {
+          "name": "Distributed Systems",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Game Developer",
+      "typical_work_experience": "any",
+      "skills": [
+        {
+          "name": "C++",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "C#",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Git",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "UI/UX Design",
+          "weight": 1,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Prototyping",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        },
+        {
+          "name": "Unit Testing",
+          "weight": 1,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Teamwork",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Problem Solving",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Data Structures",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Algorithms",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        }
+      ],
+      "interests": [
+        {
+          "name": "design",
+          "weight": 1.5
+        },
+        {
+          "name": "systems",
+          "weight": 2
+        },
+        {
+          "name": "mobile",
+          "weight": 1
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Data Structures",
+          "weight": 1.5
+        },
+        {
+          "name": "Mathematics",
+          "weight": 2
+        },
+        {
+          "name": "Physics",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Embedded Systems Engineer",
+      "typical_work_experience": "0-1",
+      "skills": [
+        {
+          "name": "Python",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "C++",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Rust",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        },
+        {
+          "name": "Git",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Linux",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Unit Testing",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Teamwork",
+          "weight": 1,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Problem Solving",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Data Structures",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Algorithms",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        }
+      ],
+      "interests": [
+        {
+          "name": "systems",
+          "weight": 2
+        },
+        {
+          "name": "security",
+          "weight": 0.5
+        },
+        {
+          "name": "research",
+          "weight": 1
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Operating Systems",
+          "weight": 2
+        },
+        {
+          "name": "Physics",
+          "weight": 1.5
+        },
+        {
+          "name": "Electronics",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Business Intelligence Analyst",
+      "typical_work_experience": "any",
+      "skills": [
+        {
+          "name": "Python",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "SQL",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "MySQL",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "PostgreSQL",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Git",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        },
+        {
+          "name": "Pandas",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Communication",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Problem Solving",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Time Management",
+          "weight": 1,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Agile",
+          "weight": 1,
+          "is_missing_highlight": true
+        }
+      ],
+      "interests": [
+        {
+          "name": "data",
+          "weight": 2
+        },
+        {
+          "name": "product",
+          "weight": 1.5
+        },
+        {
+          "name": "research",
+          "weight": 0.5
+        }
+      ],
+      "subjects": [
+        {
+          "name": "DBMS",
+          "weight": 2
+        },
+        {
+          "name": "Mathematics",
+          "weight": 1
+        },
+        {
+          "name": "Statistics",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Technical Writer",
+      "typical_work_experience": "any",
+      "skills": [
+        {
+          "name": "JavaScript",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        },
+        {
+          "name": "HTML",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "REST API",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Git",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Postman",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Communication",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Teamwork",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Problem Solving",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Time Management",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Agile",
+          "weight": 1,
+          "is_missing_highlight": true
+        }
+      ],
+      "interests": [
+        {
+          "name": "web",
+          "weight": 1
+        },
+        {
+          "name": "product",
+          "weight": 1.5
+        },
+        {
+          "name": "research",
+          "weight": 1
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Computer Networks",
+          "weight": 1
+        },
+        {
+          "name": "Software Engineering",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Solutions Architect",
+      "typical_work_experience": "3-plus",
+      "skills": [
+        {
+          "name": "SQL",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Docker",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Kubernetes",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Terraform",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        },
+        {
+          "name": "AWS",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Azure",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Communication",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Problem Solving",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Leadership",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "System Design",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Microservices",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        }
+      ],
+      "interests": [
+        {
+          "name": "systems",
+          "weight": 2
+        },
+        {
+          "name": "cloud",
+          "weight": 2
+        },
+        {
+          "name": "security",
+          "weight": 1.5
+        },
+        {
+          "name": "product",
+          "weight": 1
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Computer Networks",
+          "weight": 1.5
+        },
+        {
+          "name": "Software Engineering",
+          "weight": 1.5
+        },
+        {
+          "name": "Distributed Systems",
+          "weight": 2
+        },
+        {
+          "name": "Cloud Computing",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Systems Analyst",
+      "typical_work_experience": "any",
+      "skills": [
+        {
+          "name": "SQL",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "REST API",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Git",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Postman",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        },
+        {
+          "name": "Communication",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Teamwork",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Problem Solving",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Agile",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Scrum",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "System Design",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        }
+      ],
+      "interests": [
+        {
+          "name": "data",
+          "weight": 1
+        },
+        {
+          "name": "systems",
+          "weight": 2
+        },
+        {
+          "name": "product",
+          "weight": 1.5
+        }
+      ],
+      "subjects": [
+        {
+          "name": "DBMS",
+          "weight": 1.5
+        },
+        {
+          "name": "Computer Networks",
+          "weight": 1
+        },
+        {
+          "name": "Software Engineering",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Robotics Engineer",
+      "typical_work_experience": "1-3",
+      "skills": [
+        {
+          "name": "Python",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "C++",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Rust",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        },
+        {
+          "name": "Git",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Linux",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Machine Learning",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Computer Vision",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Unit Testing",
+          "weight": 1,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Problem Solving",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Algorithms",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        }
+      ],
+      "interests": [
+        {
+          "name": "systems",
+          "weight": 2
+        },
+        {
+          "name": "ai",
+          "weight": 1.5
+        },
+        {
+          "name": "research",
+          "weight": 1.5
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Operating Systems",
+          "weight": 1
+        },
+        {
+          "name": "Artificial Intelligence",
+          "weight": 1.5
+        },
+        {
+          "name": "Physics",
+          "weight": 2
+        },
+        {
+          "name": "Electronics",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Computer Vision Engineer",
+      "typical_work_experience": "1-3",
+      "skills": [
+        {
+          "name": "Python",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "C++",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Docker",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Git",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        },
+        {
+          "name": "Deep Learning",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "TensorFlow",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "PyTorch",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Scikit-learn",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "NumPy",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Computer Vision",
+          "weight": 3,
+          "is_missing_highlight": true
+        }
+      ],
+      "interests": [
+        {
+          "name": "data",
+          "weight": 1
+        },
+        {
+          "name": "ai",
+          "weight": 2
+        },
+        {
+          "name": "research",
+          "weight": 1.5
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Artificial Intelligence",
+          "weight": 2
+        },
+        {
+          "name": "Mathematics",
+          "weight": 2
+        },
+        {
+          "name": "Statistics",
+          "weight": 1
+        },
+        {
+          "name": "Physics",
+          "weight": 1.5
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "NLP Engineer",
+      "typical_work_experience": "1-3",
+      "skills": [
+        {
+          "name": "Python",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Docker",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Git",
+          "weight": 0.5,
+          "is_missing_highlight": false
+        },
+        {
+          "name": "Deep Learning",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "TensorFlow",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "PyTorch",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Scikit-learn",
+          "weight": 1.5,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "Pandas",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "NumPy",
+          "weight": 2,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "NLP",
+          "weight": 3,
+          "is_missing_highlight": true
+        },
+        {
+          "name": "LLM APIs",
+          "weight": 2.5,
+          "is_missing_highlight": true
+        }
+      ],
+      "interests": [
+        {
+          "name": "data",
+          "weight": 1
+        },
+        {
+          "name": "ai",
+          "weight": 2
+        },
+        {
+          "name": "research",
+          "weight": 1.5
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Data Structures",
+          "weight": 1
+        },
+        {
+          "name": "Artificial Intelligence",
+          "weight": 2
+        },
+        {
+          "name": "Mathematics",
+          "weight": 1.5
+        },
+        {
+          "name": "Statistics",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "career-recommender-server",
+  "version": "1.0.0",
+  "description": "AI Career Recommendation Stack - Express Backend with Sequelize & JWT Auth",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "db:create": "node -e \"import('./src/config/database.js').then(async m => { await m.default.query('CREATE DATABASE IF NOT EXISTS career_db;'); console.log('[Sequelize] Database checked or created.'); process.exit(0); });\"",
+    "db:migrate": "node -e \"import('./src/models/index.js').then(async m => { await m.sequelize.sync({ alter: true }); console.log('[Sequelize] Schema synchronized successfully.'); process.exit(0); });\"",
+    "db:seed": "node src/seeders/run-all.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.7",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
