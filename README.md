@@ -1,228 +1,166 @@
-# AI Career Recommendation Stack — Phase 1
+# 🧭 CareerCompass — AI Career Recommendation Stack
 
-This repository contains Phase 1 of the **AI Career Recommendation Stack**.
-
-In this phase, we establish the project scaffolding, the MySQL 8 and phpMyAdmin containerized database services via Docker Compose, and a fully functional Express.js backend with Sequelize ORM and JWT authentication.
+An end-to-end, intelligent career guidance platform designed to analyze a student's skills, academic background, interests, and preferred experience to deliver ranked, calibrated career recommendations with radar visualization and actionable skill gap summaries.
 
 ---
 
-## Architecture Overview (Phase 1)
+## 🏛️ Architecture Overview
+
+The system is architected as a decoupled, multi-tier microservices stack designed for high cohesion, rapid development, and clear separation of concerns:
 
 ```
-ai-career-recommender/
-├── client/              # Frontend placeholder (React + Vite + MUI in Phase 5)
-├── server/              # Express + Sequelize + MySQL + JWT Authentication
-├── ml-service/          # Scoring service placeholder (FastAPI in Phase 3)
-├── docker-compose.yml   # MySQL 8 & phpMyAdmin definitions
-├── .env.example         # Root environment example (DB credentials)
-├── .gitignore
-└── README.md
+[ Frontend: React + Vite + MUI (Port 5173) ]
+                    │
+                    ▼  (REST / JWT Bearer)
+[ Backend: Node.js Express + Sequelize (Port 5000) ]
+        │                               │
+        ▼ (MySQL Dialect)               ▼ (Internal HTTP)
+[ Database: MySQL 8 (Port 3307) ]   [ ML Service: Python FastAPI (Port 8000) ]
 ```
 
----
-
-## Prerequisites
-
-1. **Node.js**: v20 or higher installed.
-2. **Docker Desktop**: Installed and running on Windows.
-3. **PowerShell** or Command Prompt.
+1. **Client Tier (`client/`)**: Modern React 18 single-page application built on Vite and Material UI (MUI v5). Features multi-select searchable chip inputs, interactive Recharts radar charts, responsive drawer navigation, and JWT-authenticated session persistence.
+2. **Gateway & API Tier (`server/`)**: Express.js REST API with Sequelize ORM. Handles user authentication, token lifecycle, database migrations and seeding, request validation, transaction management, and orchestrates calls to the ML engine.
+3. **ML Scoring Service (`ml-service/`)**: High-performance Python FastAPI service. Computes deterministic, rule-based career match scores, ranks 28 tech professions, categorizes recommendations into actionable tiers, and identifies core versus secondary skill gaps.
+4. **Data Tier (`Docker / MySQL 8`)**: Relational database with 9 relational tables modeling students, master skills, academic subjects, career profiles, junction weight tables, and immutable recommendation history runs.
 
 ---
 
-## Quickstart Guide
+## 💻 Tech Stack
 
-### 1. Start Database Containers
+- **Frontend**: React 18, Vite, Material UI (MUI v5), Recharts, React Router v6, Axios
+- **Backend**: Node.js, Express.js, Sequelize ORM, JWT (jsonwebtoken), bcryptjs
+- **Machine Learning & Scoring**: Python 3.11, FastAPI, Uvicorn, Pydantic v2
+- **Database & DevOps**: MySQL 8, phpMyAdmin, Docker & Docker Compose
 
-From the repository root directory (`P:\ai-career-recommender`):
+---
 
+## 📸 Screenshots
+
+| Dashboard & History Overview | Intelligent Recommendation Form |
+| :---: | :---: |
+| ![Dashboard Screenshot](https://via.placeholder.com/600x340.png?text=Dashboard+%26+Live+Stats) | ![Recommend Form Screenshot](https://via.placeholder.com/600x340.png?text=Skill+%26+Interest+Selector) |
+
+| Career Match Hero & Radar Analytics | Complete 28-Career Ranking Table |
+| :---: | :---: |
+| ![Career Results Screenshot](https://via.placeholder.com/600x340.png?text=Top+Career+Matches+%26+Radar+Chart) | ![Full Table Screenshot](https://via.placeholder.com/600x340.png?text=Sortable+28-Career+Matrix) |
+
+---
+
+## ⚙️ How the Scoring Algorithm Works
+
+The recommendation engine employs a calibrated multi-attribute rule-based model that evaluates a student's profile across four core pillars: **Skills (60% weight)**, **Interests (15% weight)**, **Academic Subjects (15% weight)**, and **Work Experience Level (10% weight)**. Skill matches are weighted heavily toward critical requirements (weights $\ge 2.5$) with an additional Core Mastery Bonus awarded when students possess foundational technologies for a role. To mirror realistic junior hiring standards without demoralizing students, final scores are calibrated into three distinct tiers: **Strong Match** ($\ge 65\%$), **Moderate Match** ($45\% - 64.9\%$), and **Explore** ($< 45\%$), with a calibrated 15% UX baseline floor. Each career evaluation automatically extracts a **Gap Summary** isolating critical missing core requirements from secondary nice-to-have tools.
+
+---
+
+## 🚀 Local Development Setup
+
+### 1. Prerequisites
+- **Node.js**: v20 or higher
+- **Python**: v3.11 or higher
+- **Docker Desktop**: Running locally
+
+---
+
+### 2. Start the Database
+From the repository root:
 ```powershell
-# Copy the root environment file (optional reference)
-Copy-Item .env.example .env
-
-# Launch MySQL and phpMyAdmin containers in background
+# Start MySQL 8 and phpMyAdmin
 docker compose up -d
-```
 
-Verify containers are running:
-
-```powershell
+# Verify container status
 docker compose ps
 ```
-
-- **MySQL Port**: `3307` (mapped to container internal port `3306`)
-- **phpMyAdmin Web UI**: [http://localhost:8081](http://localhost:8081)
-  - Username: `career_user`
-  - Password: `career_pass`
-  - Database: `career_db`
+- **MySQL Host/Port**: `127.0.0.1:3307`
+- **phpMyAdmin UI**: [http://localhost:8081](http://localhost:8081) (`career_user` / `career_pass`)
 
 ---
 
-### 2. Configure and Run Express Server
+### 3. Start the ML Service
+In a new terminal:
+```powershell
+cd ml-service
 
-Navigate to the `server` directory:
+# Create and activate virtual environment
+python -m venv venv
+.\venv\Scripts\Activate.ps1
 
+# Install dependencies
+pip install -r requirements.txt
+
+# Run FastAPI server on port 8000
+python run.py
+```
+- **API URL**: [http://localhost:8000](http://localhost:8000)
+- **Interactive OpenAPI Docs**: [http://localhost:8000/docs](http://localhost:8000/docs)
+
+---
+
+### 4. Start the Express Backend
+In a new terminal:
 ```powershell
 cd server
-```
 
-Create your `.env` configuration file from the provided `.env.example`:
-
-```powershell
-Copy-Item .env.example .env
-```
-
-Install server dependencies:
-
-```powershell
+# Install dependencies
 npm install
-```
 
-Start the development server with live reload (`nodemon`):
+# Seed the database (87 skills, 28 careers, 298 career skills, etc.)
+npm run db:seed
 
-```powershell
+# Start development server
 npm run dev
 ```
-
-Or run in standard production mode:
-
-```powershell
-npm start
-```
-
-The server starts at:
-- **API Base**: [http://localhost:5000](http://localhost:5000)
+- **Backend API**: [http://localhost:5000](http://localhost:5000)
 - **Health Check**: [http://localhost:5000/api/health](http://localhost:5000/api/health)
 
 ---
 
-## API Endpoints (Phase 1)
+### 5. Start the React Frontend
+In a new terminal:
+```powershell
+cd client
 
-All API responses adhere to the standard shape:
-- **Success**: `{ "success": true, "data": { ... } }`
-- **Error**: `{ "success": false, "error": "message" }`
+# Install dependencies
+npm install
 
-### 1. Health Check
-- **Route**: `GET /api/health`
-- **Description**: Verifies service status.
-- **Example Response**:
-  ```json
-  {
-    "success": true,
-    "data": {
-      "status": "healthy",
-      "service": "career-recommender-server",
-      "timestamp": "2026-10-29T12:00:00.000Z",
-      "environment": "development"
-    }
-  }
-  ```
-
-### 2. Register User
-- **Route**: `POST /api/auth/register`
-- **Body**:
-  ```json
-  {
-    "name": "Jane Doe",
-    "email": "jane@example.com",
-    "password": "securepassword123",
-    "role": "student"
-  }
-  ```
-- **Example Response**:
-  ```json
-  {
-    "success": true,
-    "data": {
-      "token": "eyJhbGciOiJIUzI1NiIsInR5...",
-      "user": {
-        "id": 1,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "role": "student",
-        "created_at": "2026-10-29T12:00:00.000Z",
-        "updated_at": "2026-10-29T12:00:00.000Z"
-      }
-    }
-  }
-  ```
-
-### 3. Login User
-- **Route**: `POST /api/auth/login`
-- **Body**:
-  ```json
-  {
-    "email": "jane@example.com",
-    "password": "securepassword123"
-  }
-  ```
-- **Example Response**:
-  ```json
-  {
-    "success": true,
-    "data": {
-      "token": "eyJhbGciOiJIUzI1NiIsInR5...",
-      "user": {
-        "id": 1,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "role": "student",
-        "created_at": "2026-10-29T12:00:00.000Z",
-        "updated_at": "2026-10-29T12:00:00.000Z"
-      }
-    }
-  }
-  ```
-
-### 4. Get Current User Profile (Protected)
-- **Route**: `GET /api/auth/me`
-- **Header**: `Authorization: Bearer <token>`
-- **Example Response**:
-  ```json
-  {
-    "success": true,
-    "data": {
-      "user": {
-        "id": 1,
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "role": "student",
-        "created_at": "2026-10-29T12:00:00.000Z",
-        "updated_at": "2026-10-29T12:00:00.000Z"
-      }
-    }
-  }
-  ```
+# Start Vite development server
+npm run dev
+```
+- **Frontend App**: [http://localhost:5173](http://localhost:5173)
 
 ---
 
-## Testing with PowerShell
-
-You can verify the endpoints directly in PowerShell:
-
+### 6. Verify System Health
+You can verify that all services are operational at any time by running the included PowerShell test script from the project root:
 ```powershell
-# 1. Test Health
-Invoke-RestMethod -Uri "http://localhost:5000/api/health" -Method GET
-
-# 2. Register
-$body = @{ name = "Jane Doe"; email = "jane@example.com"; password = "password123" } | ConvertTo-Json
-$registerRes = Invoke-RestMethod -Uri "http://localhost:5000/api/auth/register" -Method POST -Body $body -ContentType "application/json"
-$token = $registerRes.data.token
-
-# 3. Access Protected /api/auth/me
-$headers = @{ Authorization = "Bearer $token" }
-Invoke-RestMethod -Uri "http://localhost:5000/api/auth/me" -Method GET -Headers $headers
+.\verify.ps1
 ```
 
 ---
 
-## Stopping the Database
+## 📡 API Reference
 
-To stop the Docker containers when done:
+All backend endpoints return responses adhering to the `{ success: boolean, data?: any, error?: string }` envelope contract.
 
-```powershell
-docker compose down
-```
-To remove database volumes completely:
-```powershell
-docker compose down -v
-```
+| Method | Endpoint | Auth | Description |
+| :--- | :--- | :---: | :--- |
+| `GET` | `/api/health` | None | Service health status check |
+| `POST` | `/api/auth/register` | None | Register new student account (`name`, `email`, `password`) |
+| `POST` | `/api/auth/login` | None | Authenticate student and issue 7-day JWT Bearer token |
+| `GET` | `/api/auth/me` | Bearer | Retrieve authenticated user profile |
+| `GET` | `/api/meta/options` | Bearer | Master list of skills (87), interests (10), subjects (12), & experience |
+| `POST` | `/api/recommend` | Bearer | Run ML scoring algorithm on student payload & persist results |
+| `GET` | `/api/recommendations` | Bearer | Paginated recommendation history with top career and match percentage |
+| `GET` | `/api/recommendations/:id` | Bearer | Full results, radar metrics, and gap breakdown for a specific run |
+
+---
+
+## 🔒 Security & Environment Variables
+
+Make sure you do **NOT** commit private credentials or secrets to version control. Always copy the provided `.env.example` templates to `.env` in the root, `server/`, and `client/` directories:
+- `JWT_SECRET`: Use a strong, cryptographically secure 256-bit string in production.
+- `DB_PASSWORD`: Ensure default database credentials are changed for staging/production environments.
+
+---
+
+## 📄 License
+This project is open-source and available under the [MIT License](LICENSE).

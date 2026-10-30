@@ -50,7 +50,7 @@ const HistoryPage = () => {
           page: pag.page ?? page,
           limit: pag.limit ?? 10,
           total: res.total ?? pag.total ?? fetchedItems.length,
-          totalPages: pag.totalPages ?? pag.pages ?? Math.ceil((res.total ?? pag.total ?? fetchedItems.length) / 10) || 1,
+          totalPages: pag.totalPages ?? pag.pages ?? (Math.ceil((res.total ?? pag.total ?? fetchedItems.length) / 10) || 1),
         });
       })
       .catch((e) => {

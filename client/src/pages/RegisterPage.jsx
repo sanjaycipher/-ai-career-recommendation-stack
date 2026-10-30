@@ -61,7 +61,15 @@ const RegisterPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!validate()) return;
-    await register(fields.name.trim(), fields.email, fields.password);
+    try {
+      await register({
+        name: fields.name.trim(),
+        email: fields.email.trim(),
+        password: fields.password,
+      });
+    } catch {
+      // Error handled by AuthContext state and rendered in MUI Alert
+    }
   };
 
   return (
@@ -207,4 +215,3 @@ const RegisterPage = () => {
 };
 
 export default RegisterPage;
-

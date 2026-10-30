@@ -55,10 +55,14 @@ export const AuthProvider = ({ children }) => {
     };
   }, []);
 
-  const login = async ({ email, password }) => {
+  const login = async (emailOrObj, maybePassword) => {
     setError(null);
     try {
-      const data = await loginApi({ email, password });
+      const payload =
+        typeof emailOrObj === 'object' && emailOrObj !== null
+          ? emailOrObj
+          : { email: emailOrObj, password: maybePassword };
+      const data = await loginApi(payload);
       localStorage.setItem('auth_token', data.token);
       setUser(data.user);
       return data.user;
@@ -68,10 +72,14 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
-  const register = async ({ name, email, password }) => {
+  const register = async (nameOrObj, maybeEmail, maybePassword) => {
     setError(null);
     try {
-      const data = await registerApi({ name, email, password });
+      const payload =
+        typeof nameOrObj === 'object' && nameOrObj !== null
+          ? nameOrObj
+          : { name: nameOrObj, email: maybeEmail, password: maybePassword };
+      const data = await registerApi(payload);
       localStorage.setItem('auth_token', data.token);
       setUser(data.user);
       return data.user;
@@ -114,4 +122,3 @@ export const useAuth = () => {
 };
 
 export default AuthContext;
-
